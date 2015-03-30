@@ -86,6 +86,10 @@ a {
   line-height: 28px;
 }
 
+#topContacts{
+  word-break: break-all;
+}
+
 #skillsH3 {
   color: #F5AE23;
   display: none;
