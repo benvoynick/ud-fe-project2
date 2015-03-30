@@ -190,7 +190,7 @@ var projects = {
             'dates' : 'October 2014-March 2015',
             'description' : 'Custom WordPress theme for United Cerebral Palsy\'s new website.',
             'images' : [
-                'http://placekitten.com/g/300/200'
+                'images/mylifescreenshot.jpg'
             ]
         }/*,
         {
