@@ -50,7 +50,7 @@ var bio = {
         'PHP',
         'WordPress'
     ],
-    'biopic' : 'http://placekitten.com/g/200/150',
+    'biopic' : 'images/headshot.jpg',
     'display' : function () {
         // Add first elements in reverse order - we're prepending so as to be above the topContacts ul
         if (this.role) {
