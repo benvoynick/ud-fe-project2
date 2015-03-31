@@ -45,24 +45,24 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 26px;
   color: #999999;
-  line-height: 29px;
+  line-height: 32px;
   padding: 10px;
 }
 
 h3 {
   font-style: italic;
-  font-size: 20px;
+  font-size: 22px;
   color: #000000;
-  line-height: 22px;
+  line-height: 24px;
 }
 
 h4 {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   color: #4A4A4A;
-  line-height: 17px;
+  line-height: 22px;
 }
 
 h2, h3, h4, h5 {
@@ -74,25 +74,25 @@ h2, h3, h4, h5 {
 
 .date-text {
   font-style: italic;
-  font-size: 14px;
+  font-size: 16px;
   color: #999999;
-  line-height: 16px;
+  line-height: 18px;
   float: left;
 }
 
 .location-text {
   font-style: italic;
-  font-size: 14px;
+  font-size: 16px;
   color: #999999;
-  line-height: 16px;
+  line-height: 18px;
   float: right;
 
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   color: #333333;
-  line-height: 21px;
+  line-height: 22px;
 }
 
 a {
