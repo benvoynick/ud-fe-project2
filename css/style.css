@@ -8,6 +8,10 @@
   overflow: auto;
 }
 
+.content-area {
+  min-height: 60px;
+}
+
 .education-entry, .work-entry, .project-entry {
   padding-left: 5%;
   padding-right: 5%;
