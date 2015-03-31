@@ -12,16 +12,19 @@ var HTMLminimizeElement = '<button class="minimizer">-</button>';
 function toggleMinimizer(minimizer, entries_selector) {
     var parent = minimizer.parent();
     var entries = parent.find(entries_selector);
+    var other_targets = parent.find('.minimize-me');
     
     if (minimizer.text() === '-') {
         // Minimize
         
         entries.hide();
+        other_targets.hide();
         minimizer.text('+');
     }
     else {
         //Maximize
         
+        other_targets.show();
         entries.show();
         minimizer.text('-');
     }
