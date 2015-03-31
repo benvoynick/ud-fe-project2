@@ -108,6 +108,7 @@ var bio = {
         // Contact info
         if (this.contacts) {
             var contactVarNames = ['mobile', 'email', 'github', 'twitter', 'blog', 'location'];
+            var contactVarNamesForFooter = ['mobile', 'email'];
             
             var contactVarNamesLength = contactVarNames.length;
             for (var stdContactVarName = 0; stdContactVarName < contactVarNamesLength; stdContactVarName++) {
@@ -115,6 +116,10 @@ var bio = {
                     var contactInfo = this.contacts[contactVarNames[stdContactVarName]];
                     var formattedContact = window['HTML' + contactVarNames[stdContactVarName]].replace('%data%', contactInfo);
                     jQuery('#topContacts').append(formattedContact);
+                    
+                    if (jQuery.inArray(contactVarNames[stdContactVarName], contactVarNamesForFooter) > -1 ) {
+                        jQuery('#footerContacts').append(formattedContact);
+                    }
                 }
             }
         }
