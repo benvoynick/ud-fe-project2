@@ -12,20 +12,23 @@ var HTMLminimizeElement = '<button class="minimizer">-</button>';
 function toggleMinimizer(minimizer, entries_selector) {
     var parent = minimizer.parent();
     var entries = parent.find(entries_selector);
-    var other_targets = parent.find('.minimize-me');
+    var otherTargets = parent.find('.minimize-me');
+    var fadeOptions = {
+        duration : 200
+    };
     
     if (minimizer.text() === '-') {
         // Minimize
         
-        entries.hide();
-        other_targets.hide();
+        entries.fadeOut(fadeOptions);
+        otherTargets.fadeOut(fadeOptions);
         minimizer.text('+');
     }
     else {
         //Maximize
         
-        other_targets.show();
-        entries.show();
+        otherTargets.fadeIn(fadeOptions);
+        entries.fadeIn(fadeOptions);
         minimizer.text('-');
     }
 }
