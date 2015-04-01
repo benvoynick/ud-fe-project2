@@ -244,9 +244,11 @@ var work = {
 var projects = {
     'projects' : [
         {
-            'title' : 'My Life Without Limits',
+            'title' : 'Pudú WordPress theme',
             'dates' : 'October 2014-March 2015',
-            'description' : 'Custom WordPress theme for United Cerebral Palsy\'s new website.',
+            'description' : 'Custom WordPress theme for United Cerebral Palsy\'s websites. Initially used for the ' +
+            'launch of <a href="http://mylifewithoutlimits.org">mylifewithoutlimits.org</a>, and also required to ' +
+            'have the flexibility to act as the future theme for ucp.org and UCP\'s hosted affiliates.',
             'images' : [
                 'images/mylifescreenshot.jpg'
             ]
