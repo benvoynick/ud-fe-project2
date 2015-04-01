@@ -108,6 +108,7 @@ a:focus {
   text-decoration: underline;
 }
 
+p a,
 .contacts a {
   display: inline;
 }
