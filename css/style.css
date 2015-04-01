@@ -112,6 +112,10 @@ a:focus {
   display: inline;
 }
 
+#name {
+  margin-right: 5px;
+}
+
 #role {
   color: #F5A623;
 }
