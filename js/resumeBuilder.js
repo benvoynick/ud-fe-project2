@@ -114,7 +114,7 @@ var bio = {
             for (var stdContactVarName = 0; stdContactVarName < contactVarNamesLength; stdContactVarName++) {
                 if (this.contacts[contactVarNames[stdContactVarName]]) {
                     var contactInfo = this.contacts[contactVarNames[stdContactVarName]];
-                    var formattedContact = window['HTML' + contactVarNames[stdContactVarName]].replace('%data%', contactInfo);
+                    var formattedContact = window['HTML' + contactVarNames[stdContactVarName]].replace(/%data%/g, contactInfo);
                     jQuery('#topContacts').append(formattedContact);
                     
                     if (jQuery.inArray(contactVarNames[stdContactVarName], contactVarNamesForFooter) > -1 ) {
