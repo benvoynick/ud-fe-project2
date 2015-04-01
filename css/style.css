@@ -200,6 +200,12 @@ img {
   padding: 10px;
 }
 
+.work-entry,
+.project-entry,
+.education-entry {
+  max-width: 1000px;
+}
+
 /* Bar chart stuff */
 .chart div {
   font: 10px sans-serif;
