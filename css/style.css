@@ -96,11 +96,16 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #5F9EA0;
   text-decoration: none;
   margin-top: 10px;
   display: block;
   word-wrap: break-word;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
 }
 
 .contacts a {
@@ -140,6 +145,10 @@ a {
   color: #FFFFFF;
 }
 
+.white-text a {
+  color: #FFFFFF;
+}
+
 .gray {
   background-color: #e8e8e8;
   clear:both;
@@ -149,7 +158,6 @@ a {
   background-color: #4A4A4A;
 }
 
-/* TODO: Replace with image later */
 #header {
   background-color: #484848;
 }
